@@ -3,6 +3,9 @@ import threading
 import sys
 import io
 
+import requests
+import json
+
 def execute_code():
     code = code_entry.get('1.0', tk.END)
     output_entry.delete('1.0', tk.END)
